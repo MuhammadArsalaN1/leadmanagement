@@ -57,26 +57,47 @@ Styling: Inline CSS (custom responsive system)
 Project Structure
 vite-project/
 ├── src/
+
 │   ├── assets/
+
 │   ├── components/
+
 │   │   ├── AddLead.jsx
+
 │   │   ├── EditLead.jsx
+
 │   │   ├── LeadTable.jsx
+
 │   │   ├── ProtectedRoute.jsx
+
 │   │   └── TodoBoard.jsx
+
 │   ├── pages/
+
 │   │   ├── Dashboard.jsx
+
 │   │   └── Login.jsx
+
 │   ├── firebase/
+
 │   │   └── firebase.js
+
 │   ├── utils/
+
 │   │   └── todoRollover.js
+
 │   ├── App.jsx
+
 │   └── main.jsx
+
 ├── public/
+
 ├── .env
+
 ├── package.json
+
 └── README.md
+
 
 Installation & Setup
 
@@ -94,10 +115,15 @@ npm install
 Add Firebase environment variables in .env:
 
 VITE_FIREBASE_API_KEY=your_key
+
 VITE_FIREBASE_AUTH_DOMAIN=your_domain
+
 VITE_FIREBASE_PROJECT_ID=your_project_id
+
 VITE_FIREBASE_STORAGE_BUCKET=your_bucket
+
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+
 VITE_FIREBASE_APP_ID=your_app_id
 
 
